@@ -21,12 +21,18 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        img {
+        .farmacias-img {
             display: block;
             margin: 0 auto;
-            height: 100px; /* Define a altura */
-            width: auto;   /* Mantém as proporções */
+            max-width: 100%;
+            height: auto;
             border-radius: 10px;
+        }
+        .selo-img {
+            display: block;
+            margin: 0 auto;
+            height: 100px; /* Define a altura do selo */
+            width: auto;   /* Mantém as proporções */
         }
         footer {
             text-align: center;
@@ -42,9 +48,11 @@
     <h1>Farmácias de Plantão</h1>
     <h2>Referente ao mês: Novembro/2024</h2>
     <p>Confira abaixo as farmácias disponíveis para atendimento em regime de plantão durante este mês.</p>
-    <img src="https://dl.dropboxusercontent.com/scl/fi/ris7pnblqwwy3j73qdlc0/1732836837691.jpeg?rlkey=97xz6hmq1hgnn57wh6xwv2pzo&dl=0" alt="Selo do grupo">
+    <!-- Imagem das farmácias -->
+    <img src="https://dl.dropboxusercontent.com/scl/fi/2as4ttfk7ibw3uw2augmc/1730498075109.jpeg?rlkey=yqkuqls4unj5s49l0gamvys1e&dl=0" alt="Farmácias de Plantão" class="farmacias-img">
     <footer>
-        <img src="https://dl.dropboxusercontent.com/scl/fi/ris7pnblqwwy3j73qdlc0/1732836837691.jpeg?rlkey=97xz6hmq1hgnn57wh6xwv2pzo&dl=0" alt="Selo do grupo">
+        <!-- Imagem do selo -->
+        <img src="https://dl.dropboxusercontent.com/scl/fi/ris7pnblqwwy3j73qdlc0/1732836837691.jpeg?rlkey=97xz6hmq1hgnn57wh6xwv2pzo&dl=0" alt="Selo do grupo" class="selo-img">
         <p>&copy; 2025 - Todos os direitos reservados.</p>
     </footer>
 </body>
